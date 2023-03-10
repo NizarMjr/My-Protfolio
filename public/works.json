@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Audiophile Shop",
+        "description": "E-commerce project made with react allow you to shop and add to your cart and see your total ",
+        "image": "./projects/audiophile.webp",
+        "made": "",
+        "live": "https://audiophile-nu.vercel.app/",
+        "git": "https://github.com/NizarMjr/Audiophile-Shop"
+    },
+    {
+        "name": "Entertainment Web",
+        "description": "This project is sample of movies web site have filter search by category",
+        "image": "./projects/entertainment-web.webp",
+        "made": "",
+        "live": "https://entertainment-web-nizarmjr.vercel.app/",
+        "git": "https://github.com/NizarMjr/entertainment-web"
+    },
+    {
+        "name": "Countries",
+        "description": "This Project allow you to get all information about countries like capital, population as well as borders... all data come from the REST Countries API",
+        "image": "./projects/countries.webp",
+        "made": "",
+        "live": "https://nizarmjr.github.io/Countries/",
+        "git": "https://github.com/NizarMjr/Countries"
+    },
+    {
+        "name": "Comfy Store",
+        "description": "E-commerce project made with react allow you to shop and add to your cart and see your total ",
+        "image": "./projects/comfy.webp",
+        "made": "",
+        "live": "",
+        "git": "https://github.com/NizarMjr/Comfy"
+    },
+    {
+        "name": "Space Tourism",
+        "description": "Small project focus on routing between pages as well as responsive part",
+        "image": "./projects/space-tourism.webp",
+        "made": "",
+        "live": "https://space-tourism-nnkbexwqx-nizarmjr.vercel.app/",
+        "git": "https://github.com/NizarMjr/space-tourism"
+    },
+    {
+        "name": "Multi Step Form",
+        "description": "Multi step form",
+        "image": "./projects/multi-step-form.webp",
+        "made": "",
+        "live": "https://multi-step-form-main-eg6bjflt2-nizarmjr.vercel.app/",
+        "git": "https://github.com/NizarMjr/Multi-step-form"
+    },
+    {
+        "name": "Calculator App",
+        "description": "Simple calculator app with many themes",
+        "image": "./projects/calculator.webp",
+        "made": "",
+        "live": "https://calculator-kys0z1fpc-nizarmjr.vercel.app/",
+        "git": "https://github.com/NizarMjr/Calculator-App"
+    }
+]
