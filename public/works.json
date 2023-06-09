@@ -54,5 +54,13 @@
         "made": "",
         "live": "https://calculator-kys0z1fpc-nizarmjr.vercel.app/",
         "git": "https://github.com/NizarMjr/Calculator-App"
+    },
+    {
+        "name": "Interactive Comments",
+        "description": "Interactive Comments",
+        "image": "./projects/interactive-comments.webp",
+        "made": "",
+        "live": "https://interactive-comment-beta.vercel.app/",
+        "git": "https://github.com/NizarMjr/interactive-comments"
     }
 ]

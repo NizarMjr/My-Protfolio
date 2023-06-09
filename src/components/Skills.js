@@ -17,9 +17,9 @@ const Skills = () => {
                 <h1 className="main-title">SKILLS</h1>
                 <h2 className={`second-title`}>My Skills</h2>
                 <article className="grid grid-cols-[repeat(auto-fill,minmax(300px,_1fr))]">
-                    {icons.map((ele) => {
+                    {icons.map((ele, index) => {
                         return (
-                            <div className="flex flex-col items-center mb-[1rem]">
+                            <div key={index} className="flex flex-col items-center mb-[1rem]">
                                 <i className="text-[4rem] mb-[.5rem]">{ele.icon}</i>
                                 <p className="font-bold">{ele.name}</p>
                             </div>
