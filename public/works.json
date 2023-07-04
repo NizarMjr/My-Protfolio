@@ -62,5 +62,13 @@
         "made": "",
         "live": "https://interactive-comment-beta.vercel.app/",
         "git": "https://github.com/NizarMjr/interactive-comments"
+    },
+    {
+        "name": "Dictionary Web App",
+        "description": "Dictionary Web App",
+        "image": "./projects/dictionary.webp",
+        "made": "",
+        "live": "https://dictionnary.vercel.app",
+        "git": "https://github.com/NizarMjr/dictionary-web-app"
     }
 ]
