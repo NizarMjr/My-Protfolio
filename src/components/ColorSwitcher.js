@@ -1,9 +1,11 @@
 import React from "react";
 import { AiFillSetting } from 'react-icons/ai'
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { change_color } from "../redux/Actions";
+import DarkLight from "./DarkLight";
 
 const ColorSwitcher = () => {
+    const darkMode = useSelector(state => state.DarkMode);
     const dispatch = useDispatch();
     const toggleColors = () => {
         if (document.getElementsByClassName('colors')[0].classList.contains('hideColors')) {
@@ -23,8 +25,8 @@ const ColorSwitcher = () => {
     return (
         <div className="colors duration-[.3s] fixed z-30 top-[30%] right-[0] flex hideColors">
             <i className="h-[fit-content] text-2xl p-[.5rem] flex rounded-[.5rem] rounded-tr-none rounded-br-none bg-[#777] text-[white] cursor-pointer" onClick={(() => toggleColors())}><AiFillSetting /></i>
-            <div className="list-colors w-[200px] h-[200px] bg-[white] p-[.5rem]">
-                <p className="text-[black] text-[1.2rem] font-bold">Color Switcher</p>
+            <div className={`list-colors w-[200px] h-[250px] p-[.5rem] ${darkMode ? 'bg-[#020c1b]' : 'bg-[#ddd]'}`}>
+                <p className="text-[1.2rem] font-bold">Color Switcher</p>
                 <div className="flex flex-col justify-center items-center h-[calc(100%-1.5rem)]">
                     <div className="flex mb-[1rem] ">
                         <div className={`switchedColor bg-[#6610f2]`} onClick={() => changeColor('#6610f2')} ></div>
@@ -41,6 +43,7 @@ const ColorSwitcher = () => {
                         <div className={`switchedColor bg-[#795548]`} onClick={() => changeColor('#795548')} ></div>
                     </div>
                     <button className="bg-[#20c997] text-white p-[.4rem] text2xl mt-[1.2rem] font-[500]" onClick={() => changeColor('#20c997')}>Reset Default Teal</button>
+                    <DarkLight />
                 </div>
             </div>
         </div>

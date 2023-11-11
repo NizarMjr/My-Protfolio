@@ -1,5 +1,13 @@
 [
     {
+        "name": "Movix",
+        "description": "This project is cloning of movix webstie of movies and TV series, the project is still in progress, It's not ready yet ",
+        "image": "./projects/movix.svg",
+        "made": "",
+        "live": "",
+        "git": "https://github.com/NizarMjr/Comfy"
+    },
+    {
         "name": "Audiophile Shop",
         "description": "E-commerce project made with react allow you to shop and add to your cart and see your total ",
         "image": "./projects/audiophile.webp",
@@ -22,14 +30,6 @@
         "made": "",
         "live": "https://nizarmjr.github.io/Countries/",
         "git": "https://github.com/NizarMjr/Countries"
-    },
-    {
-        "name": "Comfy Store",
-        "description": "E-commerce project made with react allow you to shop and add to your cart and see your total ",
-        "image": "./projects/comfy.webp",
-        "made": "",
-        "live": "",
-        "git": "https://github.com/NizarMjr/Comfy"
     },
     {
         "name": "Space Tourism",

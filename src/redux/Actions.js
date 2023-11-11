@@ -6,3 +6,9 @@ export const change_color = (data) => {
         payload: data,
     }
 }
+export const switchDarkMode = (payload) => {
+    return {
+        type: Types.DARK,
+        payload: payload,
+    }
+}
