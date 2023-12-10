@@ -4,8 +4,8 @@
         "description": "This project is cloning of movix webstie of movies and TV series, the project is still in progress, It's not ready yet ",
         "image": "./projects/movix.svg",
         "made": "",
-        "live": "",
-        "git": "https://github.com/NizarMjr/Comfy"
+        "live": "https://moviix-nizarmjr.vercel.app/",
+        "git": "https://github.com/NizarMjr/Moviix"
     },
     {
         "name": "Audiophile Shop",

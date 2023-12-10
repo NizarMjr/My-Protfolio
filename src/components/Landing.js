@@ -14,7 +14,6 @@ const Landing = () => {
         setTimeout(() => {
             setShowSecondBtn(true);
         }, 1700)
-
     }, [])
     return (
         <div className="relative bg-landing relative w-[100%] h-[100vh] bg-no-repeat bg-cover before:content-[''] before:w-[100%] before:h-[100%] before:absolute before:top-[0] before:left-[0] before:bg-[rgb(0,0,0,70%)]">
@@ -38,7 +37,7 @@ const Landing = () => {
                 {/* <p className="text-2xl tracking-[.2rem]">Based in Marsa, Tunis</p> */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-between w-fit mx-auto">
                     <a href="#contact" style={{ color: color, borderColor: color }} className={`block mr-8 w-[150px] text-xl font-[500] rounded-[1.5rem] p-[.5rem] bg-[transparent] mt-[3rem] border-2 transition duration-500 ${showFirstBtn ? 'opacity-100' : 'opacity-0'}`}>Hire Me</a>
-                    <a download href="" style={{ color: color, borderColor: color }} className={`block w-[150px] text-xl font-[500] rounded-[1.5rem] p-[.5rem] bg-[transparent] mt-[3rem] border-2 transition duration-500 ${showSecondBtn ? 'opacity-100' : 'opacity-0'}`}>Download CV</a>
+                    <a href="../assets/myCV.pdf" target="_blank" download="myCV.pdf" style={{ color: color, borderColor: color }} className={`block w-[150px] text-xl font-[500] rounded-[1.5rem] p-[.5rem] bg-[transparent] mt-[3rem] border-2 transition duration-500 ${showSecondBtn ? 'opacity-100' : 'opacity-0'}`}>Download CV</a>
                 </div>
             </div>
         </div>
