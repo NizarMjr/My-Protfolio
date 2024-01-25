@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Movix",
+        "description": "This project is cloning of movix webstie of movies and TV series, API from TMDB",
+        "git": "https://github.com/NizarMjr/Moviix",
+        "image": "./projects/movix.svg",
+        "live": "https://moviix-nizarmjr.vercel.app/"
+    },
+    {
+        "name": "Countries",
+        "description": "This Project allow you to get all information about countries like capital, population as well as borders... all data come from the REST Countries API",
+        "git": "https://github.com/NizarMjr/Countries",
+        "image": "./projects/countries.webp",
+        "live": "https://nizarmjr.github.io/Countries/"
+    },
+    {
+        "name": "Audiophile Shop",
+        "description": "E-commerce project made with react allow you to shop and add to your cart and see your total",
+        "git": "https://github.com/NizarMjr/Audiophile-Shop",
+        "image": "./projects/audiophile.webp",
+        "live": "https://audiophile-nu.vercel.app/"
+    },
+    {
+        "name": "Calculator App",
+        "description": "Simple calculator app with many themes",
+        "git": "https://github.com/NizarMjr/Calculator-App",
+        "image": "/projects/calculator.webp",
+        "live": "https://calculator-kys0z1fpc-nizarmjr.vercel.app/"
+    },
+    {
+        "name": "Interactive Comments",
+        "description": "Interactive Comments",
+        "git": "https://github.com/NizarMjr/interactive-comments",
+        "image": "./projects/interactive-comments.webp",
+        "live": "https://interactive-comment-beta.vercel.app/"
+    },
+    {
+        "name": "Multi Step Form",
+        "description": "Multi Step Form",
+        "git": "https://github.com/NizarMjr/Multi-step-form",
+        "image": "./projects/multi-step-form.webp",
+        "live": "https://multi-step-form-main-eg6bjflt2-nizarmjr.vercel.app/"
+    },
+    {
+        "name": "Entertainment Web",
+        "description": "This project is sample of movies web site have filter search by category",
+        "git": "https://github.com/NizarMjr/entertainment-web",
+        "image": "./projects/entertainment-web.webp",
+        "live": "https://entertainment-web-nizarmjr.vercel.app/"
+    },
+    {
+        "name": "Space Tourism",
+        "description": "Small project focus on routing between pages as well as responsive part",
+        "git": "https://github.com/NizarMjr/space-tourism",
+        "image": "./projects/space-tourism.webp",
+        "live": "https://space-tourism-nnkbexwqx-nizarmjr.vercel.app/"
+    }
+]
